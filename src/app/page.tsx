@@ -1,3 +1,4 @@
+import Footer from "@/components/Footer";
 import Featured from "@/components/ui/featured";
 import { HeroBackground } from "@/components/ui/heroBackground";
 import Navbar from "@/components/ui/navbar";
@@ -64,6 +65,7 @@ export default function Home() {
       </div>
 
       <Featured />
+      <Footer/>
     </div>
   )
 }
