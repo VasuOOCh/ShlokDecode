@@ -1,9 +1,14 @@
+import Featured from "@/components/ui/featured";
 import { HeroBackground } from "@/components/ui/heroBackground";
+import Navbar from "@/components/ui/navbar";
 import { TypewriterEffectSmooth } from "@/components/ui/typeWriter";
 
 export default function Home() {
   return (
     <div>
+
+      {/* Narbar */}
+      <Navbar />
 
       {/* Hero section */}
       <div className="relative w-full h-screen bg-black flex items-center justify-center overflow-hidden">
@@ -58,9 +63,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div>
-        Hello there
-      </div>
+      <Featured />
     </div>
   )
 }
